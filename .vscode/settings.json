@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": "src/",
+      "changeProcessCWD": true
+    }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}

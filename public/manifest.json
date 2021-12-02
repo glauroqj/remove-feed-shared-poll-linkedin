@@ -2,7 +2,7 @@
   "name": "LinkeClean",
   "short_name": "LinkeClean",
   "description": "Remove linkedin pools with magic! =]",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "author": "Glauro Q Juliani",
   "icons": {

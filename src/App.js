@@ -1,16 +1,10 @@
-import React from 'react'
-
-const App = () => {
+function App() {
 
   return (
     <div className="linkeclean-app">
-
-      <div className="footer">
-        Feito com amor por <a href="https://www.linkedin.com/in/glauro-juliani/" target="new">Glauro Juliani</a> <b>0.2.4</b>
-      </div>
-    
+      Removing linkedin pools with magic!
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Open-Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   .linkeclean-app {
     min-width: 300px;
+    font-size: 14px;
 
     & .loading {
       height: 60px;

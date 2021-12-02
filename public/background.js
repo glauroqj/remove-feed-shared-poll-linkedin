@@ -14,7 +14,6 @@
 
   document.addEventListener('scroll', throttle(
     () => {
-      let counter = 0
       console.log('< searching polls to delete... >')
       const feedPolls = () => [...document.querySelectorAll('.feed-shared-poll')]
 
@@ -25,7 +24,6 @@
         queue.length > 0 && queue.forEach((element) => {
           console.log('< removed poll >')
           element &&  element.offsetParent.remove()
-          counter++
         })
       }
       deletePolls()

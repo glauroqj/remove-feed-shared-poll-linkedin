@@ -1,11 +1,6 @@
 /*global chrome*/
 
 (() => {
-  chrome.runtime.onInstalled.addListener(() => {
-    console.log('Chrome extension successfully installed!');
-    return;
-  });
-
   const throttle = (callback, limit, delay) => {
     let count = 0
     return (...args) => {
@@ -25,7 +20,7 @@
 
       const deletePolls = async () => {
         const queue = feedPolls()
-        chrome.action.setBadgeText({text: `${counter}`})
+        // chrome.action.setBadgeText({text: `${counter}`})
 
         queue.length > 0 && queue.forEach((element) => {
           console.log('< removed poll >')

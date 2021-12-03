@@ -2,7 +2,7 @@ function App() {
 
   return (
     <div className="linkeclean-app">
-      Removing linkedin pools with magic!
+      Removing linkedin polls with magic!
     </div>
   );
 }

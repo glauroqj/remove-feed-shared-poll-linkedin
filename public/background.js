@@ -1,6 +1,6 @@
 /*global chrome*/
-
 (() => {
+
   const throttle = (callback, limit, delay) => {
     let count = 0
     return (...args) => {
